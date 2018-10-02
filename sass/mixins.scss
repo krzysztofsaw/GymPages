@@ -1,0 +1,42 @@
+@mixin number {
+            opacity: 0.15;
+            color: #333333;
+            font-family: "PT Serif";
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 28px;
+}
+
+
+@mixin ask {
+    color:#66a900;
+    font-weight: 700;
+}
+
+@mixin text {
+    color: #aeaeae;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 30px;
+        letter-spacing: 0.56px;
+}
+
+@mixin button {
+     width: 270px; 
+     height: 53px;
+     color: #66a900;
+     font-family: "PT Serif";
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 30px;
+    
+      &:hover,
+      &:active,
+      &:focus,
+      &:visited{
+            color: #66a900;
+        }
+    
+    
+}
